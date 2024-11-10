@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.store {
+  display: grid;
+  max-width: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.icon-switch {
+  display: flex;
+  justify-content: end;
+}
+
+.goods-cards-view {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  background: #f5f5f5;
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+}
+
+.goods-cards-view .card {
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 8px #80808085;
+  gap: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-color {
+  font-size: 13px;
+}
+
+.card-price {
+  color: #a25045;
+}
+
+.btn.card-add {
+  box-sizing: border-box;
+  padding: 4px 15px;
+  border-radius: 15px;
+  border: 1px solid #a25045;
+  color: #a25045;
+}
+
+.goods-cards-view .card-price {
+  margin-right: auto;
+}
+
+.goods-cards-view .btn.card-add {
+  margin-left: auto;
+  z-index: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.goods-cards-view .card-price {
+  margin-right: auto;
+}
+
+.goods-cards-view .btn.card-add {
+  margin-left: auto;
+  z-index: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.goods-list-view .card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.goods-list-view .card-image {
+  order: 1;
+  max-height: 100px;
+  width: auto;
+}
+
+.goods-list-view .card-title {
+  order: 2;
+}
+
+.goods-list-view .card-color {
+  order: 3;
+}
+
+.goods-list-view .card-price {
+  order: 4;
+}
+
+.goods-list-view .btn.card-add {
+  order: 5;
+}
